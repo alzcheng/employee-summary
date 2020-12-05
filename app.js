@@ -10,7 +10,6 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
-
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 
@@ -18,12 +17,22 @@ const render = require("./lib/htmlRenderer");
 // above) and pass in an array containing all employee objects; the `render` function will
 // generate and return a block of HTML including templated divs for each employee!
 
+const test1 = new Manager("far", 2323, "aasdf", 123);
+const test2 = new Engineer("near", 23423, "asdfa", "aedfad");
+const test3 = new Intern("wherever", 1232, "adfas", "asdfas");
+const testArr = [test1, test2, test3];
+
 // After you have your html, you're now ready to create an HTML file using the HTML
 // returned from the `render` function. Now write it to a file named `team.html` in the
 // `output` folder. You can use the variable `outputPath` above target this location.
 // Hint: you may need to check if the `output` folder exists and create it if it
 // does not.
-
+fs.writeFile("./output/team.html", render(testArr), (err) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+});
 // HINT: each employee type (manager, engineer, or intern) has slightly different
 // information; write your code to ask different questions via inquirer depending on
 // employee type.
