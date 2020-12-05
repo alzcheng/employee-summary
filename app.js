@@ -1,6 +1,7 @@
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
+const TeamGenerator = require("./lib/TeamGenerator");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -9,6 +10,9 @@ const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
+
+const myTeam = new TeamGenerator();
+myTeam.start();
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
@@ -27,7 +31,7 @@ const testArr = [test1, test2, test3];
 // `output` folder. You can use the variable `outputPath` above target this location.
 // Hint: you may need to check if the `output` folder exists and create it if it
 // does not.
-fs.writeFile("./output/team.html", render(testArr), (err) => {
+fs.writeFile(outputPath, render(testArr), (err) => {
   if (err) {
     console.error(err);
     return;
