@@ -1,3 +1,18 @@
 .jumbotron {
-  background-color: red;
+  background-color: teal;
+  color: white;
+}
+
+.employee-card {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 18rem;
+}
+
+.card-header {
+  background-color: teal;
+  color: white;
+  text-align: center;
 }
