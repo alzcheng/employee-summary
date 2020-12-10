@@ -1,6 +1,6 @@
 const TeamGenerator = require("./lib/TeamGenerator");
 
-//Define myTeam as the Team Generator
+//Define myTeam as the new Team Generator
 const myTeam = new TeamGenerator();
 
 //Start the Team Generator
