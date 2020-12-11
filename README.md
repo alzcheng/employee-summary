@@ -11,13 +11,15 @@
 
 ## Description
 
-This is a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. The information is going to be shown in cards. There will be 3 cards per line.
+![Screenshot](./assets/team-generator-screenshot.png)
 
-  <iframe src="https://drive.google.com/file/d/1Go93VVzl4oH4dJ-zDkHKQbiPNIdCjUnC/preview" width="640" height="480"></iframe>
+This is a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. The information is going to be shown in cards. There will be 3 cards per line. Click on thumbnail below to access the instructional video.
+
+[![YouTube video](https://img.youtube.com/vi/EFi8uiBi6NY/3.jpg)](https://youtu.be/EFi8uiBi6NY)
 
 ## Installation Instructions
 
-To install the project, fork from this Githbub account and do a git pull. Then, initiate your integrated terminal and type "npm install" to install the relevant npm node_modules.
+To install the project, fork from this [Githbub account](https://github.com/alzcheng/employee-summary) and do a git pull. Then, initiate your integrated terminal and type "npm install" to install the relevant npm node_modules.
 
 ## Usage Information
 
