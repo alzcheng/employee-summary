@@ -13,7 +13,7 @@
 
 ![Screenshot](./assets/team-generator-screenshot.png)
 
-This is a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. The information is going to be shown in cards. There will be 3 cards per line. Click on thumbnail below to access the instructional video.
+This is a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. The information is going to be shown in cards. There will be 3 cards per row. Click on thumbnail below to access the instructional video.
 
 [![YouTube video](https://img.youtube.com/vi/EFi8uiBi6NY/3.jpg)](https://youtu.be/EFi8uiBi6NY)
 
