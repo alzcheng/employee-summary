@@ -19,7 +19,7 @@ This is a Node CLI that takes in information about employees and generates an HT
 
 ## Installation Instructions
 
-To install the project, fork from this [Githbub account](https://github.com/alzcheng/employee-summary) and do a git pull. Then, initiate your integrated terminal and type "npm install" to install the relevant npm node_modules.
+To install the project, fork from this [Githbub account](https://github.com/alzcheng/team-webpage-generator) and do a git pull. Then, initiate your integrated terminal and type "npm install" to install the relevant npm node_modules.
 
 ## Usage Information
 
