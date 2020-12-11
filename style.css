@@ -1,8 +1,10 @@
+/* Stylings for the jumbotron */
 .jumbotron {
   background-color: teal;
   color: white;
 }
 
+/* Stylings for the cards */
 .employee-card {
   margin-left: 10px;
   margin-right: 10px;
